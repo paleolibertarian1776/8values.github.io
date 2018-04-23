@@ -475,5 +475,14 @@ ideologies = [
             "govt": 50,
             "scty": 20
         }
+    },
+    {
+        "name": "Progressive Capitalist",
+        "stats": {
+            "econ": 20,
+            "dipl": 40,
+            "govt": 40,
+            "scty": 60
+        }
     }
 ];
