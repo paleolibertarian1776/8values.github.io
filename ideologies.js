@@ -400,8 +400,8 @@ ideologies = [
         "stats": {
             "econ": 20,
             "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "govt": 50,
+            "scty": 30
         }
     },
     {
@@ -470,7 +470,7 @@ ideologies = [
     {
         "name": "Paleo-Conservative/Paleo-Libertarian",
         "stats": {
-            "econ": 20,
+            "econ": 10,
             "dipl": 10,
             "govt": 50,
             "scty": 20
