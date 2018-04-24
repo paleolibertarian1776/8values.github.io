@@ -664,8 +664,8 @@ questions = [
             "govt": 10,
             "scty": 10
         }
-    }
-    {,
+    },
+    {
         "question": "Homosexuality should be discouraged by society but should be have the same lawful rights.",
         "effect" {
             "econ": 10,
