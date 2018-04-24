@@ -667,7 +667,7 @@ questions = [
     },
     {
         "question": "Homosexuality should be discouraged by society but should be have the same lawful rights.",
-        "effect" {
+        "effect": {
             "econ": 10,
             "dipl": 0,
             "govt": -10,
