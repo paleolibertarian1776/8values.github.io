@@ -513,11 +513,20 @@ questions = [
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "Our culture is superior to others in most ways.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Sex outside marriage is immoral unless if engaged to marry.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -5,
+            "govt": 0,
             "scty": -10
         }
     },
@@ -531,7 +540,25 @@ questions = [
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "We should only accept immigrants based on their culture.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Abortion should be prohibited in most or all cases because the child has its individual right to live.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Abortions should be prohibited even in the case of rape because a child does not deserve to die because of what its father did.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -544,6 +571,15 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Gun owners must have a permit to own a gun and all firearms should be registered.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
             "govt": -10,
             "scty": 0
         }
@@ -563,6 +599,15 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Prostitution, except brothels, should be legalized/decriminalized but is immoral and should be discouraged in society.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
             "scty": -10
         }
     },
@@ -612,21 +657,39 @@ questions = [
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "All people - regardless of factors like culture or sexuality - should be treated equally by law amd society.",
         "effect": {
             "econ": 10,
             "dipl": 10,
             "govt": 10,
             "scty": 10
         }
+    }
+    {,
+        "question": "Homosexuality should be discouraged by society but should be have the same lawful rights.",
+        "effect" {
+            "econ": 10,
+            "dipl": 0,
+            "govt": -10,
+            "scty": -10
+        }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "It is important that we further my group's goals above all others by law.",
         "effect": {
             "econ": -10,
             "dipl": -10,
             "govt": -10,
             "scty": -10
         }
-    }
-];
+    },
+    {
+        "question": "It is important that we further my group's goals above all others socially but not by law.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    ];
